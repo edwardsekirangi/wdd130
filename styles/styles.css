@@ -1,12 +1,16 @@
+:root{
+    --padding: 10px
+}
+
 nav {
     background-color: black;
-    padding: 10px;
+    padding: var(--padding);
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: var(--padding);
 }
 
 h1 {
@@ -17,12 +21,12 @@ img {
     width: 150px;
     height: auto;
     border: 1px solid black;
-    padding: 2px;
+    padding: var(--padding);
     box-shadow: 0 0 30px gray;
 }
 
 p {
-    padding: 10px;
+    padding: var(--padding);
 }
 
 main {
@@ -34,7 +38,7 @@ aside {
     width: auto;
     margin: 10px;
     border: 2px solid rgb(0 0 0 / 0.2);
-    padding: 10px;
+    padding: var(--padding);
     background-color: #970c0c;
     color: #e6e6e6;
     text-align: center;
