@@ -1,10 +1,27 @@
-:root{
-    --padding: 10px
+:root {
+    --padding: 10px;
+    --background-color: #4d0000;
+    --text-color: #e6e6e6;
+    --text-color2: #262626;
+    --lighter-heading-colors: #ffc2c2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Roboto';
+
 }
 
 nav {
-    background-color: black;
+    background-color: #4d0000;
     padding: var(--padding);
+    border-radius: 40px;
 }
 
 nav a {
@@ -15,14 +32,31 @@ nav a {
 
 h1 {
     color: red;
+    margin-top: 30px;
+
+    font-family: "Charm", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+
+
+    font-family: "Charm", cursive;
+    font-weight: 700;
+    font-style: normal;
+    
+
+
 }
 
 img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid rgb(0 0 0 / 0.2);
     padding: var(--padding);
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px #4d0000;
+    border-radius: 10px;
+
+
 }
 
 p {
@@ -42,11 +76,24 @@ aside {
     background-color: #970c0c;
     color: #e6e6e6;
     text-align: center;
+    border-radius: 20px;
+    position: relative;
+
+}
+
+.heading {
+    position: absolute;
+    top: 47px;
+    left: 260px
 }
 
 aside img {
     width: 400px;
     height: auto;
+    border-radius: 20px;
+    border: 5px solid rgb(0 0 0 / 0.3);
+
+
 }
 
 main img {
@@ -63,4 +110,29 @@ footer {
     border-top: 2px solid rgb(0 0 0 / 0.2);
     text-align: center;
 }
+
+/* This one is for the temple headings and the colours, I wanna give them some pzaz */
+/* li{
+    background-color: var(--lighter-heading-colors);
+    color: var(--text-color2);
+    padding: var(--padding);
+    border-radius: 10px;
+    box-shadow: 0 0 20px #700000 ;
+
+} */
+.img1 {
+
+    /* height: auto; */
+    /* border: 1px solid rgb(0 0 0 / 0.2);  */
+    /* padding: var(--padding); */
+    /* box-shadow: 0 0 30px #4d0000; */
+    border-radius: 10px;
+    float: right
+}
+
+.temple {
+    margin-top: 50px;
+}
+
 /* This is what a css comment looks like */
+/* 3rd march 2025 : last modified */
