@@ -141,13 +141,10 @@ nav {
 .rafting-images2{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 20% 20% 20% 20% 20%;
+    color: #03045e;
 
 }
-.caption{
-    color: #ac0202;
-    grid-row-start: 5;
-}
+
 
 footer {
     background-color: #0077b6;
