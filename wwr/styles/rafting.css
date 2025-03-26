@@ -53,6 +53,7 @@ header{
     margin-left: 0;
     background-color: var(--accent2-color);
     color:#0077b6;
+    text-decoration: none;
     
 }
 .heading1{
@@ -78,7 +79,7 @@ header{
     
 
 }
-.img-paragraph{
+.hero{
     box-sizing: border-box;
     border: 2px solid rgb(0 0 0 / 0.2);
     height:auto;
@@ -131,6 +132,23 @@ footer{
     background-color: #0077b6;
     height:100px;
     color:#90e0ef
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+  
+  .social-icons a {
+    font-size: 30px;  /* Adjust size */
+    color: #90e0ef;   /* Default color */
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+  
+.social-icons a:hover {
+    color: #03045e;   /* Change color on hover */
+    transform: scale(1.2);
 }
   
 
