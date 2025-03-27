@@ -1,0 +1,201 @@
+:root {
+    --primary-color: #0077b6;
+    --secondary-color: #00b4d8;
+    --accent1-color: #03045e;
+    --accent2-color: #90e0ef;
+    --text-font: "Roboto", sans-serif;
+    --heading-font: "Merriweather", serif;
+    --font-weight: 200;
+    --padding: 10px
+}
+
+
+/* .merriweather {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+} */
+
+* {
+    font-family: var(--text-font);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    box-sizing: border-box;
+    background-color: #0077b6;
+    padding: 1rem;
+    margin-bottom: 20px;
+    overflow: auto;
+
+}
+
+nav {
+    display:flex;
+    flex: 1 100px;
+    align-items: center;
+    flex-flow: row wrap;
+    text-align: center;
+
+}
+
+.navigation {
+    text-align: center;
+
+}
+
+.nav-design {
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 2px solid rgba(0, 64, 119, 0.7);
+    margin-left: 0;
+    background-color: var(--accent2-color);
+    color:#03045e;
+    text-decoration: none;
+
+}
+
+main {
+    padding: 20px;
+}
+.reach{
+    /* border: 2px solid rgb(0 0 0 / 0.4); */
+    text-align: center;
+    padding: 1rem;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    
+
+}
+.team1{
+    text-align: center;
+    width:600px;
+    justify-content: flex-end;
+
+    
+
+}
+
+.contact-info {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+.maps{
+    padding: 2rem;
+}
+
+.maps-pos{
+    display:grid;
+    grid-template-columns:10% 90%;
+    overflow: hidden;
+}
+.employees {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.employee {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    justify-content: center;
+    flex: 3;
+    
+}
+
+.employee img {
+    width: 190px;
+    height: 240px;
+    border-radius: 40%;
+}
+
+form label, form input, form textarea {
+    display: block;
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 1rem;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+fieldset{
+    background-color: #eaeaea;
+    margin-top: 10px;
+    padding: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    background-color: #004466;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #003355;
+    transform: scale(1.02);
+}
+footer {
+    background-color: #0077b6;
+    height: 100px;
+    color: #90e0ef
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.social-icons a {
+    font-size: 30px;
+    /* Adjust size */
+    color: #90e0ef;
+    /* Default color */
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #03045e;
+    /* Change color on hover */
+    transform: scale(1.2);
+}
+.move, .wired{
+    text-decoration: underline;
+    color:#90e0ef;
+    text-align: center;
+}
+/* .contact-info, .employees, .contact-form {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  */

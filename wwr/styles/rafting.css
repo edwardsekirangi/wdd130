@@ -172,11 +172,9 @@ footer {
     /* Change color on hover */
     transform: scale(1.2);
 }
-:root {
-    --fa-rotate-angle: 0deg; /* Ensure a valid default */
-}
-
-.fa-rotate-by {
-    transform: rotate(var(--fa-rotate-angle));
+.wire{
+    text-align: center;
+    padding: 0.5rem;
+    text-decoration: none;
 }
 
