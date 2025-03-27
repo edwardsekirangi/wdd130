@@ -172,3 +172,7 @@ footer {
     /* Change color on hover */
     transform: scale(1.2);
 }
+.fa-rotate-by {
+    --fa-rotate-angle: 0deg; /* Set a valid default */
+    transform: rotate(var(--fa-rotate-angle));
+}
