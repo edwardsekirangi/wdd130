@@ -145,8 +145,16 @@ fieldset{
 input[type="checkbox"] {
     width: 22px;
     height: 22px;
-    vertical-align: bottom;
+    
+    
 }
+.check{
+    display: grid;
+    grid-template-columns: 400px 10px;
+
+    
+}
+
 
 button {
     background-color: #004466;
