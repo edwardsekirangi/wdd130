@@ -5,81 +5,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Contact White water rafting">
     <meta name="author" content="Sekirangi Edward">
-    <link rel="stylesheet" href="styles/rafting.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="contact.css">
     <title>Contact Us White water rafting</title>
 </head>
 <body>
     <header>
-        <!-- I want to first import the company logo image -->
+          <!-- I want to first import the company logo image -->
         <img src="images/z-splash.png" alt="Logo" width="180">
         <nav>
-            
             <a href="placeholder" class="nav-design">Home</a>
             <a href="placeh" class="nav-design">About Us</a>
             <a href="place" class="nav-design">Trips</a>
-            <a href="placeh" class="nav-design">Contact Us</a>
-            
+            <a href="placeh" class="nav-design">Contact Us</a>          
         </nav>
     </header>
+    
     <main>
-       
-        <section class="boxmain">
-             <!-- This first list will have an image with a class identifier -->
-           
-            <div class="hero">
-                <h1 class="heading1">WHITE WATER RAFTING</h1>  
-                <img src="images/z-splash.png" alt="Rafting expedition" width="150" class="rafting-image">
-                <p class="paragraph"></p>
-            </div>  
-            
-        </section>
-        <section class="history-div">
-            <!-- This is the div for the history -->
-            <h2 class="history-heading">HISTORY</h2>
-            <p class="history-text"></p>
+        <section class="reach team">
+            <h1>Reach our Team</h1>
+            <p class="reach team1">We love questions and feedback - and we're always happy to help! Here are some ways to contact us</p>
+
         </section>
         
-        <section class="future-div">
-            <h2 class="future-heading">ADVENTURE AWAITS YOU</h2>
-            <p class="future-text"></p>
-            <div class="rafting-images2">
-                <!-- This is the div element I will put the images -->
-                <figure>
-                    <img src="images/jonatan-lewczuk-hN7jhC_YWk0-unsplash.webp" alt="Rafting" width="350">
-                    <figcaption>Peru Rapids</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/julie-thornton-UWdgTvf3m8g-unsplash.webp" alt="Rafting" width="350">
-                    <figcaption>Colorado Rapids</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rune-haugseng-qNe4XPYDnSY-unsplash.webp" alt="Rafting" width="350">
-                    <figcaption>Colorado Rapids</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/ramon-bucard-MmCJvOW_LQk-unsplash.webp" alt="Rafting" width="350">
-                    <figcaption>Bienvendo Rapids</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/megan-nixon-llepl3Zt-eQ-unsplash.webp" alt="Rafting" width="350">
-                    <figcaption>South Sudan Nile</figcaption>
-                </figure>            
+        <section class="contact-info">
+            <div>
+                <h3 class="maps text1">Headquarters</h3>
+                <p class="maps text2">Address: 123 River Rd, Rafting Town, RT 45678</p>
+                <p class="maps text3">Phone: (123) 456-7890</p>
+                <p class="maps text4">Email: info@whitewaterrafting.com</p>
             </div>
-            </section>
+            <div class="maps-pos">
+                <p></p>
+                <iframe src="https://www.google.com/maps/embed?..." width="1000" height="700" style="border: 2px solid #3498db; border-radius: 2px;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            
+        </section>
+        
+        <section class="employees">
+            <h3>Meet Our Team</h3>
+            <div class="employee">
+                <img src="images/OIP3.jpg" alt="John Doe">
+                <p>John Doe - Guide</p>
+            </div>
+            <div class="employee">
+                <img src="images/OIP(1).jpg" alt="Jane Smith">
+                <p>Jane Smith - Customer Service</p>
+            </div>
+            <div class="employee">
+                <img src="images/OIP.webp" alt="Mike Brown">
+                <p>Mike Brown - Safety Coordinator</p>
+            </div>
+        </section>
+        
+        <section class="contact-form">
+            <h3>Send Us a Message</h3>
+            <form action="#" method="post">
+                <fieldset>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </fieldset>
+                
+                
+                
+                <fieldset>
+                    <legend>Reason for Contact:</legend>
+                    <label>General Inquiry</label>
+                        <input type="radio" name="reason" value="general"> 
+
+                    <label>Reservation Question</label>
+                        <input type="radio" name="reason" value="reservation"> 
+
+                    <label>Website Suggestion</label>
+                        <input type="radio" name="reason" value="suggestion"> 
+
+                </fieldset>
+                
+                <fieldset>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <label>Please subscribe me to the monthly newsletter</label>
+                    <input type="checkbox" name="subscribe"> 
+                </fieldset>
+                
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
     </main>
+    
     <footer>
-        <!-- Creating social media icon images with links to them -->
+        <p>©2025 Whitewater Rafting | All Rights Reserved</p>
+        <p class="move"><a href="images/Screenshot_28-3-2025_102229_www.bing.com.webp" class="wired">View Wireframe</a></p>
         <div class="social-icons">
             <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
             <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
             <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
         </div>
           
-
     </footer>
 </body>
 </html>
