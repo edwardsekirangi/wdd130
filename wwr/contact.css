@@ -151,10 +151,10 @@ input[type="checkbox"] {
 .check{
     display: grid;
     grid-template-columns: 400px 10px;
-
-    
 }
-
+ul{
+    padding:15px
+}
 
 button {
     background-color: #004466;
